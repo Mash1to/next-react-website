@@ -18,5 +18,12 @@
 
 .sideBySideCenter {
     composes: sideBySide;
-    
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .sideBySideCenter {
+        text-align: left;
+    }
 }
