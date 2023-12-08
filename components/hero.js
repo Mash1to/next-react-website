@@ -1,4 +1,6 @@
 import style from 'styles/hero.module.css'
+import Image from 'next/image'
+
 
 export default function Hero({ title, subtitle, imageOn = false }) {
     return (
