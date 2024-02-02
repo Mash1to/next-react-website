@@ -1,10 +1,12 @@
 import styles from 'styles/post-body.module.css'
 import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFolderOpen } from '@fortawesome/free-regular-svg-icons'
 
 export default function PostCategories({ categories }) {
     return (
-        <div classname={styles.flexContainer}>
-            <h3 classname={styles.heading}>
+        <div className={styles.flexContainer}>
+            <h3 className={styles.heading}>
                 <fontAwesomeIcon icon={faFolderOpen} />
                 <span className="sr-only">Categories</span>
             </h3>
